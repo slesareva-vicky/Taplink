@@ -22,7 +22,7 @@ body{
 .header {
   color: #fff;
   padding: 34px 49px 122px;
-  background: linear-gradient(0deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url('../img/header-bg.jpg') no-repeat  center / cover;
+  background: linear-gradient(0deg, rgba(143, 143, 143, 0.6), rgba(0, 0, 0, 0.8)), url('../img/header-bg.jpg') no-repeat  center / cover;
   border-radius: 0px 0px 56px 56px;
 }
 .hello{
@@ -62,4 +62,58 @@ font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 color:#000000;
+}
+.card{
+background-color:#ffffff;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+border-radius: 12px;
+margin-top: 8px;
+margin-bottom: 8px;
+padding: 15px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 279px;
+  margin: auto;
+  gap: 5px;
+}
+.button {
+  background-color: #000000;
+  max-width: 279px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  gap: 10px;
+  margin-bottom: 5px;
+ 
+ 
+}
+.button.vk {
+  background-color: #597DA3;
+}
+.button.tg {
+  background-color: #0088CC;
+}
+.button.yt {
+  background-color: #CD201F;
+}
+.button.gh, 
+.button.hh {
+   padding-left: 60px;
+   justify-content: left;
+}
+
+.button.hh {
+  background-color: #D6001C;
 }
